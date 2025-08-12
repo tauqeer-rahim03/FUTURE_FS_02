@@ -4,7 +4,7 @@ ShopSphere is a feature-rich, single-page e-commerce website built with React an
 
 ## Live Demo
 
-A live demo of the project is available here: your-live-demo-link.com
+A live demo of the project is available here: [ShopSphere](https://future-fs-02-six.vercel.app/)
 
 ## Features
 
