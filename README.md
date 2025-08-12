@@ -32,17 +32,6 @@ A live demo of the project is available here: your-live-demo-link.com
 
 -   DummyJSON: Used as a source for mock product and category data.
 
-## Project Structure
-
-The project is organized with a clear and scalable folder structure:
-
-src/
-├── components/ # Reusable UI components (Header, ProductCard, etc.)
-├── context/ # React Context for global state (CartContext)
-├── pages/ # Top-level page components (HomePage, CartPage, etc.)
-├── App.js # Main application component with routing setup
-└── index.js # The entry point of the application
-
 ## Contributing
 
 This project was created for a specific task and as a demonstration of skills. Therefore, contributions, forks, and pull requests are not being accepted at this time.
