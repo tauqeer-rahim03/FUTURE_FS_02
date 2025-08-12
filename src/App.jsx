@@ -10,6 +10,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 export default function App() {
     const [searchTerm, setSearchTerm] = useState("");
+
     return (
         <CartProvider>
             <BrowserRouter>
@@ -20,7 +21,10 @@ export default function App() {
                     />
                     <main className="flex-grow">
                         <Routes>
-                            <Route path="/" element={<HomePage />} />
+                            <Route
+                                path="/"
+                                element={<HomePage searchTerm={searchTerm} />}
+                            />
                             <Route path="/cart" element={<CartPage />} />
                             <Route
                                 path="/product/:productId"
